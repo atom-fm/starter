@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/atom-fm/framework.git",
-                "reference": "783a70607e52c6f5e2cca91283f0361604b27a97"
+                "reference": "b1894b4910dd9c95c806e6b731b6d65290c4b88a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atom-fm/framework/zipball/783a70607e52c6f5e2cca91283f0361604b27a97",
-                "reference": "783a70607e52c6f5e2cca91283f0361604b27a97",
+                "url": "https://api.github.com/repos/atom-fm/framework/zipball/b1894b4910dd9c95c806e6b731b6d65290c4b88a",
+                "reference": "b1894b4910dd9c95c806e6b731b6d65290c4b88a",
                 "shasum": ""
             },
             "require": {
@@ -64,7 +64,7 @@
             "support": {
                 "source": "https://github.com/atom-fm/framework/tree/master"
             },
-            "time": "2026-08-16T11:41:41+00:00"
+            "time": "2026-08-16T15:11:08+00:00"
         },
         {
             "name": "doctrine/lexer",
