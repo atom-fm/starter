@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96925b45a010854711554f2b480e40da",
+    "content-hash": "8aba97e7ffb1da00e0d0383b4c2a2808",
     "packages": [
         {
             "name": "atom-fm/framework",
-            "version": "dev-master",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atom-fm/framework.git",
@@ -32,42 +32,26 @@
                 "phpstan/phpstan": "^2.2",
                 "phpunit/phpunit": "^11.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Atom\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Atom\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "phpunit"
-                ],
-                "analyse": [
-                    "phpstan analyse --memory-limit=512M"
-                ],
-                "check": [
-                    "@analyse",
-                    "@test"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "Atom Framework",
             "keywords": [
-                "Atom",
+                "atom",
                 "framework"
             ],
             "support": {
                 "source": "https://github.com/atom-fm/framework/tree/v0.1.0"
             },
-            "time": "2026-11-25T22:23:28+00:00"
+            "time": "2026-11-25T22:23:28+00:00",
+            "published-time": "2026-11-25T22:26:20+00:00"
         },
         {
             "name": "atom-fm/orm",
@@ -103,27 +87,17 @@
                     "Atom\\Database\\": "src/"
                 }
             },
-            "scripts": {
-                "test": [
-                    "phpunit"
-                ],
-                "analyse": [
-                    "phpstan analyse --memory-limit=512M"
-                ],
-                "check": [
-                    "@analyse",
-                    "@test"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "Attribute-based PHP models and persistence using PDO",
             "support": {
-                "source": "https://github.com/atom-fm/orm/tree/v0.1.0",
-                "issues": "https://github.com/atom-fm/orm/issues"
+                "issues": "https://github.com/atom-fm/orm/issues",
+                "source": "https://github.com/atom-fm/orm/tree/v0.1.0"
             },
-            "time": "2026-11-25T21:33:47+00:00"
+            "time": "2026-11-25T21:33:47+00:00",
+            "published-time": "2026-11-25T21:44:59+00:00"
         },
         {
             "name": "atom-fm/sql",
@@ -157,27 +131,17 @@
                     "Atom\\Database\\Sql\\": "src/"
                 }
             },
-            "scripts": {
-                "test": [
-                    "phpunit"
-                ],
-                "analyse": [
-                    "phpstan analyse --memory-limit=512M"
-                ],
-                "check": [
-                    "@analyse",
-                    "@test"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "Parameterized SQL query builder and dialect compilers for PHP",
             "support": {
-                "source": "https://github.com/atom-fm/sql/tree/v0.1.0",
-                "issues": "https://github.com/atom-fm/sql/issues"
+                "issues": "https://github.com/atom-fm/sql/issues",
+                "source": "https://github.com/atom-fm/sql/tree/v0.1.0"
             },
-            "time": "2026-11-25T21:33:37+00:00"
+            "time": "2026-11-25T21:33:37+00:00",
+            "published-time": "2026-11-25T21:44:24+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -2103,11 +2067,9 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "atom-fm/framework": 20
-    },
-    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.4",
