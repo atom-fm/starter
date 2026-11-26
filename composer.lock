@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "atom-fm/framework",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atom-fm/framework.git",
-                "reference": "3fba37776fc95af85d51cdd89c30cb25edeb8904"
+                "reference": "6b6a217a1b881ab974c4adaa1ab8c9aa3576070f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atom-fm/framework/zipball/3fba37776fc95af85d51cdd89c30cb25edeb8904",
-                "reference": "3fba37776fc95af85d51cdd89c30cb25edeb8904",
+                "url": "https://api.github.com/repos/atom-fm/framework/zipball/6b6a217a1b881ab974c4adaa1ab8c9aa3576070f",
+                "reference": "6b6a217a1b881ab974c4adaa1ab8c9aa3576070f",
                 "shasum": ""
             },
             "require": {
@@ -48,23 +48,23 @@
                 "framework"
             ],
             "support": {
-                "source": "https://github.com/atom-fm/framework/tree/v0.1.0"
+                "source": "https://github.com/atom-fm/framework/tree/v0.1.1"
             },
-            "time": "2026-11-25T22:23:28+00:00",
-            "published-time": "2026-11-25T22:26:20+00:00"
+            "time": "2026-11-25T23:17:35+00:00",
+            "published-time": "2026-11-25T23:31:13+00:00"
         },
         {
             "name": "atom-fm/orm",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atom-fm/orm.git",
-                "reference": "e0ecee700ec0b837ba65b6547a80a3b5ac7d376e"
+                "reference": "050d58e730f3c910fa47b3d6a063b590fd9f1ad2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atom-fm/orm/zipball/e0ecee700ec0b837ba65b6547a80a3b5ac7d376e",
-                "reference": "e0ecee700ec0b837ba65b6547a80a3b5ac7d376e",
+                "url": "https://api.github.com/repos/atom-fm/orm/zipball/050d58e730f3c910fa47b3d6a063b590fd9f1ad2",
+                "reference": "050d58e730f3c910fa47b3d6a063b590fd9f1ad2",
                 "shasum": ""
             },
             "require": {
@@ -94,23 +94,23 @@
             "description": "Attribute-based PHP models and persistence using PDO",
             "support": {
                 "issues": "https://github.com/atom-fm/orm/issues",
-                "source": "https://github.com/atom-fm/orm/tree/v0.1.0"
+                "source": "https://github.com/atom-fm/orm/tree/v0.1.1"
             },
-            "time": "2026-11-25T21:33:47+00:00",
-            "published-time": "2026-11-25T21:44:59+00:00"
+            "time": "2026-11-25T23:17:33+00:00",
+            "published-time": "2026-11-25T23:31:10+00:00"
         },
         {
             "name": "atom-fm/sql",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atom-fm/sql.git",
-                "reference": "115f135c6aff70631bc4330806eb6b9594588308"
+                "reference": "1602f8a7e2f84f539effd8d69a5249a0a9f05813"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atom-fm/sql/zipball/115f135c6aff70631bc4330806eb6b9594588308",
-                "reference": "115f135c6aff70631bc4330806eb6b9594588308",
+                "url": "https://api.github.com/repos/atom-fm/sql/zipball/1602f8a7e2f84f539effd8d69a5249a0a9f05813",
+                "reference": "1602f8a7e2f84f539effd8d69a5249a0a9f05813",
                 "shasum": ""
             },
             "require": {
@@ -138,10 +138,10 @@
             "description": "Parameterized SQL query builder and dialect compilers for PHP",
             "support": {
                 "issues": "https://github.com/atom-fm/sql/issues",
-                "source": "https://github.com/atom-fm/sql/tree/v0.1.0"
+                "source": "https://github.com/atom-fm/sql/tree/v0.1.1"
             },
-            "time": "2026-11-25T21:33:37+00:00",
-            "published-time": "2026-11-25T21:44:24+00:00"
+            "time": "2026-11-25T23:17:30+00:00",
+            "published-time": "2026-11-25T23:31:07+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
